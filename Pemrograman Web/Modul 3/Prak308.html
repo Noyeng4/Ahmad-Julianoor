@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Form Pendaftaran</title>
+        <style>
+            h1 {
+                color: red;
+            }
+            #nama[type="text"] {
+                margin-left: 118px;
+            }
+            #nim[type="text"] {
+                margin-left: 128px;
+            }
+            #email[type="email"] {
+                margin-left: 113px;
+            }
+            #date[type="date"] {
+                margin-left: 67px;
+            }
+            #lk[type="radio"] {
+                margin-left: 66px;
+            }
+            #pm[type="radio"] {
+                margin-left: 161px;
+            }
+            #c[type="checkbox"] {
+                margin-left: 19px;
+            }
+            #java[type="checkbox"] {
+                margin-left: 161px;
+            }
+            #sql[type="checkbox"] {
+                margin-left: 161px;
+            }
+            #html[type="checkbox"] {
+                margin-left: 161px;
+            }
+        </style>
+    </head>
+    <body>
+        <br>
+        <center>
+            <table border="1" bgcolor="white">
+                <tr bgcolor="skyblue" align="center">
+                    <td width="500" height="80"> <H1>Pendaftaran Kursus</H1> </td>
+                </tr>
+        </center>
+                    <form>
+                <tr bgcolor="gray">
+                    <td width="400"><h2>Data Diri</h2>
+                        <label for="nama">Nama</label>
+		                <input type="text" id="nama" name="nama"><br>
+                        <label for="nim">Nim</label>
+		                <input type="text" id="nim" name="nama"><br>
+                        <label for="email">E-mail</label>
+	                	<input type="email" id="email" name="email"><br>
+                        <label for="date">Tanggal Lahir </label>
+                        <input type="date" id="date" name="date"><br>
+                        Jenis Kelamin
+                        <input type="radio" id="lk" name="laki">Laki-laki<br>
+                        <input type="radio" id="pm" name="bini">Perempuan<br>
+                        Pilih Program Kursus
+                        <input type="checkbox" id="c">C# <br>
+                        <input type="checkbox" id="java">Java <br>
+                        <input type="checkbox" id="sql">SQL <br>
+                        <input type="checkbox" id="html">HTML dan PHP <br>
+                        Pilihan Hari/Jam Kursus
+                        <select name="Hari/Jam Kursus">
+                            <option value="Senin">Senin - Rabu/09:00 - 11:00</option>
+                            <option value="Kamis">Kamis - Sabtu/08:00 - 10:00</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr bgcolor="#ed5645">
+                    <td width="400" height="80">
+                        Komentar Anda <br>
+                        <textarea name="deskripsi" cols="40" rows="4" align="center"></textarea> <br>
+                            <input type="reset" value="Reset" name="Reset">
+                            <input type="submit" value="Submit" name="Submit">
+                            <input type="button" value="Cancel" name="Cancel">
+                    </form>
+                    </td>
+                </tr>
+        </table>
+    </body>
+</html>
