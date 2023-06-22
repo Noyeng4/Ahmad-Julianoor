@@ -1,0 +1,249 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, a, .btn{
+    font-family: 'Playfair Display', serif;
+    color: #252525;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h4, h5, h6, p {
+    font-family: 'Raleway', sans-serif;
+    color: #696969;
+}
+
+p {
+    line-height: 1.7;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.h3, h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.btn-lg {
+    padding: 12px 68px;
+}
+.btn {
+    padding: 10px 40px;
+}
+
+.btn {
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border-color: #252525;
+    color: #252525;
+}
+
+.btn.btn-invert {
+    background-color: #fff;
+    border: 1px solid #252525;
+    color: #252525;
+    border-radius: 2px;
+
+}
+.btn.btn-invert:hover {
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #fff;
+}
+
+.mgR-20px {
+    margin-right: 20px;
+}
+
+.container-fluid .navbar {
+    padding: 30px 8%;
+}
+
+.navbar-brand {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+    color: #252525;
+}
+
+.navbar-light .navbar-nav {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #252525;
+}
+
+.navbar-light .navbar-nav > .active > a,
+.navbar-light .navbar-nav > .active > a:focus, 
+.navbar-light .navbar-nav > .active > a:hover {
+    color: #252525;
+    background-color: transparent;
+}
+
+.borders div {
+    z-index: 9999;
+    pointer-events: none;
+    background-color: transparent;
+    border-color: #252525;
+    border-style: solid;
+    height: 90px;
+    position: fixed;
+    width: 90px;
+}
+
+.brTR {
+    border-width: 15px 15px 0 0;
+    right: 0;
+    top: 0;
+}
+
+.brTL {
+    border-width: 15px 0 0 15px;
+    top: 0;
+    left: 0;
+}
+
+.brBL {
+    border-width: 0 0 15px 15px;
+    bottom: 0;
+    left: 0;
+}
+
+.brBR {
+    border-width: 0 15px 15px 0;
+    bottom: 0;
+    right: 0;
+}
+
+#hero-text {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#hero-text h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+#hero-text h5 {
+    margin-top: 0;
+    letter-spacing: 6px;
+    color: #696969;
+}
+
+nav li {
+    display: inline;
+    padding: 8px 18px;
+    font-size: 16px;
+    color: #636363;
+    font-weight: 400;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+nav li.active {
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.controls button {
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: #7C7C7C;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.controls button:hover, .controls button.mixitup-control-active {
+    border: 1px solid #656565;
+    border-radius: 25px;
+    color: #656565;
+}
+
+.controls {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.controls button:focus {
+    outline: none;
+}
+
+.mix-container {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.home-gallery {
+    width: 100%;
+    max-width: 2000px;
+    display: inline-block;
+    padding: 0 7.5px;
+}
+
+.home-gallery .mix {
+    display: block;
+    padding: 7.5px;
+    width: 25%;
+    float: left;
+}
+
+
+.home-gallery .item-img img {
+    max-width: 100%;
+}
+
+.footer-info {
+    padding: 120px 0;
+    text-align: center;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 120px;
+}
+
+footer a {
+    font-size: 28px;
+    padding: 0 16px;
+}
+
+footer a, footer a:link {
+    text-decoration: none;
+    color: #777;
+}
