@@ -23,9 +23,9 @@ public class Buah {
         System.out.println("Berat: " + berat);
         System.out.println("Harga: Rp" + hargaPerKg);
         System.out.println("Jumlah Beli: " + jmlhBeli + "kg");
-        System.out.println("Harga Sebelum Diskon: Rp" + hargaSebelumDiskon);
+        System.out.println("Harga Sebelum Diskon: Rp" + String.format("%.2f", hargaSebelumDiskon));
         System.out.println("Total Diskon: Rp" + diskon);
-        System.out.println("Harga Setelah Diskon: Rp" + hargaSetelahDiskon);
+        System.out.println("Harga Setelah Diskon: Rp" + String.format("%.2f", hargaSetelahDiskon));
         System.out.println();
     }
 }
